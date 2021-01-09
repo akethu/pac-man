@@ -111,11 +111,11 @@ function disappear() {
 function timeup() {
     document.body.classList.remove("stop-scrolling"); 
     if(count == 0 && num == 0) {
-        alert("Click on 'Reset' and then on 'Start' to play again!");
+        alert("Click on 'Reset' and then on 'Start' to start the timer!");
     }
     else if(num != 0) {
         document.getElementById('timetext2').style.width = "600px";
-        document.getElementById('timetext2').innerHTML = "Click on 'Reset' and then on 'Start' to start the timer!";
+        document.getElementById('timetext2').innerHTML = "Click on 'Reset' and then on 'Start' to play again!";
     }
     else {
         num++;
