@@ -87,6 +87,7 @@ document.onkeydown = function(k) {
 
 var count = 0;
 var timez = 0;
+var num = 0;
 
 function timeStart() {
     if(score >= 1){
@@ -109,11 +110,16 @@ function disappear() {
 
 function timeup() {
     document.body.classList.remove("stop-scrolling"); 
-    clearInterval(timez);
-    if(count == 0) {
-        alert("Click on 'Reset' and then on 'Start' to start the timer!");
+    if(count == 0 && num == 0) {
+        alert("Click on 'Reset' and then on 'Start' to play again!");
+    }
+    else if(num != 0) {
+        document.getElementById('timetext2').style.width = "600px";
+        document.getElementById('timetext2').innerHTML = "Click on 'Reset' and then on 'Start' to start the timer!";
     }
     else {
+        num++;
+        clearInterval(timez);
         alert('Your final score: ' + count + ' seconds!');
     } 
 }
