@@ -1,0 +1,83 @@
+.pac-man {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://raw.githubusercontent.com/keephopealive/academy-pacman/master/pacman.png');
+    margin: -2px;
+}
+
+.floor {
+    height: 50px;
+    width: 50px;
+    background-image: url('images/arches.png');
+    margin: -2px;
+}
+
+#coinlogo {
+    height: 50px;
+    width: 50px;
+    vertical-align: center;
+    margin: -2px;
+}
+
+.ghost {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://raw.githubusercontent.com/keephopealive/academy-pacman/master/ghost2.png');
+    margin: -2px;
+}
+
+.wall {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://raw.githubusercontent.com/keephopealive/academy-pacman/master/wall.png');
+    margin: -2px;
+}
+
+.body {
+    background-image: url('images/space.png');
+}
+
+div {
+    display: inline-block;
+}
+
+#timetext {
+    background-color: black;
+    color: #dddddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: none;
+    width: 800px;
+    border-radius: 10px;
+}
+
+#timetext2 {
+    background-color: #11698e;
+    color: #dddddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#startt {
+    height: 40px;
+    width: auto;
+    display: inline;
+}
+
+.stop-scrolling { 
+    height: 100%;
+    overflow: hidden; 
+} 
+
+#scoreBoard {
+    background-color: #30475e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: #dddddd;
+    width: 400px;
+    border-radius: 10px;
+    border: solid #fc8621;
+}
