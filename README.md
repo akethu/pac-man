@@ -14,6 +14,7 @@ Players can compete by trying to collect all the coins as fast as possible using
 - Automatic scroll-lock 
 - Scoreboard 
 - Alerts
+
 and more.
 
 ## Upcoming Features
