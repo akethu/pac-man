@@ -80,4 +80,15 @@ div {
     width: 400px;
     border-radius: 10px;
     border: solid #fc8621;
+    visibility: hidden;
+}
+
+#diff {
+    background-color: #f08a5d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    width: 50%;
+    border: solid white;
+    border-radius: 10px;
+    font-size: large;
 }
