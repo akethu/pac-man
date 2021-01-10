@@ -8,18 +8,21 @@ Link: https://akethu.github.io/pac-man/
 
 ## Current Features
 
-Players can compete by trying to collect all the coins as fast as possible using the arrow keys. Includes features such as:
+Players can compete by trying to collect all the coins as fast as possible using the arrow keys. What more?! Try to avoid the ghost and collect as many coins as possible! Includes features such as:
+
+- AI Ghost
+- Pro-Mode
 - Timer 
 - Pilot-control
 - Automatic scroll-lock 
 - Scoreboard 
 - Alerts
 
-and more.
+and much more.
 
 ## Upcoming Features
 
-I am soon to add an AI ghost, which randomly moves around the game board. The player has to avoid the ghost and collect all the coins at the same time. I also plan to make the game board bigger.
+I plan to make the game board bigger and add more difficulty levels. I also plan to render it so as to make it functional on mobile.
 
 ## License
 
