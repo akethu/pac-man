@@ -10,7 +10,7 @@ Link: https://akethu.github.io/pac-man/
 
 Players can compete by trying to collect all the coins as fast as possible using the arrow keys. What more?! Try to avoid the ghost and collect as many coins as possible! Includes features such as:
 
-- AI Ghost
+- AI Ghost!
 - Pro-Mode
 - Timer 
 - Pilot-control
