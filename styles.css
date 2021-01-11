@@ -59,6 +59,9 @@ div {
     border: none;
     border-radius: 10px;
     width: 400px;
+    height: 20px;
+    padding-top: 4px;
+    visibility: hidden;
 }
 
 #startt {
@@ -81,14 +84,20 @@ div {
     border-radius: 10px;
     border: solid #fc8621;
     visibility: hidden;
+    height: 20px;
+    padding-top: 4px;
 }
 
 #diff {
-    background-color: #f08a5d;
+    background-color: #11698e;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
-    width: 50%;
+    width: 180px;
+    height: 30px;
     border: solid white;
     border-radius: 10px;
     font-size: large;
+    vertical-align: middle;
+    padding-top: 12px;
+    color: #e7e7de;
 }
