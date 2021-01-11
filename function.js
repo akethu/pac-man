@@ -135,6 +135,8 @@ function timeStart() {
     };
     map[ghostloc.y][ghostloc.x] = 4; 
     document.getElementById('scoreBoard').style.visibility = "visible";
+    document.getElementById('timetext2').style.visibility = "visible";
+    document.getElementById('timetext2').innerHTML = 'Score: ' + score;
     document.getElementById('timetext2').style.border = "solid white";
     document.getElementById('timetext').style.border = "solid white";
     setTimeout("disappear()", 7000);
