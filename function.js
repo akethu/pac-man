@@ -117,7 +117,7 @@ var num = 0;
 var ghostTimez = 0;
 var difficulty = 1000;
 var temp = Math.floor(Math.random()*4);
-var guide = [[1,1], [11,1], [1,7], [11,7]];
+var guide = [[1,1], [1,7], [11,1], [11,7]];
 
 function timeStart() {
     if(score >= 1){
@@ -150,7 +150,7 @@ function disappear() {
 function timeup() {
     document.body.classList.remove("stop-scrolling"); 
     if(count == 0 && num == 0) {
-        alert("Click on 'Reset' and then on 'Start' to start the timer!");
+        setTimeout(function(){alert("Click on 'Reset' and then on 'Start' to start the timer!");}, 100); 
     }
     else if(num != 0) {
         document.getElementById('timetext2').style.width = "600px";
@@ -160,7 +160,7 @@ function timeup() {
         num++;
         clearInterval(timez);
         clearInterval(ghostTimez);
-        alert('Your final score: ' + score + ' coins!');
+        setTimeout(function(){alert('Your final score: ' + score + ' coins!');}, 100); 
     } 
 }
 
